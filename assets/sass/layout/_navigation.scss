@@ -1,3 +1,6 @@
+.contenedor{
+  display: inline-block;
+}
 .topnav {
     background-color: $white;
     overflow: hidden;
@@ -7,8 +10,8 @@
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
+    float:left;
+    display: inline-block;
     color:$nickel;
     text-align: center;
     padding: 14px 16px;
@@ -33,6 +36,23 @@
     display: none;
     color: $raising-black;
 }
+.botones{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+
+  button{
+    width: 110px;
+    padding: 3%;
+    background-color: $ball-blue;
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+}
+
+
 @media (min-width: 576px){
 
     

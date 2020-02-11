@@ -8,6 +8,9 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Open Sans', sans-serif; }
 
+.contenedor {
+  display: inline-block; }
+
 .topnav {
   background-color: #fff;
   overflow: hidden;
@@ -17,7 +20,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  display: block;
+  display: inline-block;
   color: #726f73;
   text-align: center;
   padding: 14px 16px;
@@ -38,6 +41,19 @@ body {
 .topnav .icon {
   display: none;
   color: #221d23; }
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px; }
+  .botones button {
+    width: 110px;
+    padding: 3%;
+    background-color: #2ab7ca;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem; }
 
 @media (min-width: 576px) {
   .topnav {
@@ -272,7 +288,12 @@ body {
 
   .topnav a.icon {
     float: right;
-    display: block; } }
+    display: block; }
+
+  .botones {
+    width: 0;
+    height: 0;
+    opacity: 0; } }
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative; }
@@ -363,7 +384,7 @@ section {
 .carta-1, .carta-2 {
   background-color: #fff;
   width: 280px;
-  height: 400px;
+  height: 450px;
   margin: 18px; }
 
 .interior-caja1 {
@@ -371,7 +392,60 @@ section {
   flex-direction: column;
   align-items: left;
   margin-left: 20px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif; }
+  .interior-caja1 h4 {
+    font-size: 25px;
+    margin-bottom: 0px; }
+  .interior-caja1 h2 {
+    font-size: 45px;
+    font-weight: 700;
+    font-style: bold;
+    margin-top: 0px; }
+  .interior-caja1 hr {
+    width: 100%;
+    margin: 0px; }
+  .interior-caja1 p {
+    padding: 10px 20px; }
+  .interior-caja1 button {
+    width: 250px;
+    padding: 3%;
+    background-color: #2ab7ca;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 15px; }
+
+.interior-caja2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif; }
+  .interior-caja2 h4 {
+    font-size: 25px;
+    margin-bottom: 0px; }
+  .interior-caja2 h2 {
+    font-size: 45px;
+    font-weight: 900;
+    font-style: bold;
+    margin-top: 0px; }
+  .interior-caja2 hr {
+    width: 100%;
+    margin: 0px; }
+  .interior-caja2 p {
+    padding: 5px 20px; }
+  .interior-caja2 button {
+    width: 250px;
+    padding: 3%;
+    background-color: #2ab7ca;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 15px; }
 
 .titulo-caracteristicas {
   text-align: center;
@@ -403,7 +477,7 @@ main {
     position: relative;
     transition: all 500ms linear;
     transform: translate3d(0px, 10px, 0px);
-    transition-delay: 0.5s; }
+    transition-delay: 0.2s; }
   main .animation-element.in-view {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px); }

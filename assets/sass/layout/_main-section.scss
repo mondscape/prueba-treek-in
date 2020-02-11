@@ -31,9 +31,11 @@ section{
 .carta-1,.carta-2{
     background-color: $white;
     width: 280px;
-    height: 400px;
+    height: 450px;
     margin: 18px;
 }
+
+
 
 .interior-caja1{
     display: flex;
@@ -41,6 +43,72 @@ section{
     align-items: left;
     margin-left: 20px;
     margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    
+        h4{
+            font-size: 25px;
+            margin-bottom:0px;
+        }
+        h2{
+            font-size: 45px;
+            font-weight: 700;
+            font-style: bold;
+            margin-top: 0px;
+        }
+        hr{
+            width: 100%;
+            margin: 0px;
+        }
+        p{
+            padding: 10px 20px;
+        }
+        button{
+            width: 250px;
+            padding: 3%;
+            background-color: $ball-blue;
+            color: $white;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-style: bold;
+            font-size: 15px;
+        }
+    
+}
+.interior-caja2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+        h4{
+            font-size: 25px;
+            margin-bottom:0px;
+        }
+        h2{
+            font-size: 45px;
+            font-weight: 900;
+            font-style: bold;
+            margin-top: 0px;
+        }
+        hr{
+            width: 100%;
+            margin: 0px;
+        }
+        p{
+            padding: 5px 20px;
+        }
+        button{
+            width: 250px;
+            padding: 3%;
+            background-color: $ball-blue;
+            color: $white;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-style: bold;
+            font-size: 15px;
+        }
+    
 }
 .titulo-caracteristicas{
     text-align: center;
@@ -77,7 +145,7 @@ main{
         position: relative;
         transition: all 500ms linear;
         transform: translate3d(0px, 10px, 0px);
-        transition-delay: 0.5s;
+        transition-delay: 0.2s;
         
     }
     .animation-element.in-view{
