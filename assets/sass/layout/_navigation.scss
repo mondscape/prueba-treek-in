@@ -1,15 +1,15 @@
-
 .topnav {
     background-color: $white;
     overflow: hidden;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+
 }
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
-    color:$raising-black;
+    color:$nickel;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,4 +31,13 @@
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
+    color: $raising-black;
+}
+@media (min-width: 576px){
+
+    
+.topnav {
+   
+    margin-left: 70px;
+    }
 }

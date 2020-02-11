@@ -20,35 +20,61 @@
             <a href="#iniciarsesion"><button>Iniciar Sesión</button></a>
             <a href="#registrate"><button>Regístrate</button></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
+              <i class="fa fa-bars fa-3x"></i>
             </a>
           </div>
     </nav>
 
     <header class="herosection col-12">
-        <h1>Haz Trekking sin parar</h1>
-        <h3>Con Trekk-in te despreocuparás de las estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</h3>
-        <!-- <div class="img-herosection"><img src="assets/img/result.svg" alt=""></div> -->
+        <div class="hero-texto">
+            <h1>Haz Trekking sin parar</h1>
+            <h3>Con Trekk-in te despreocuparás de las estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</h3>
+        </div>
     </header>
 
-    <main class="col-12 col-md-8">
-        <h2>Caracteristicas</h2>
-        <img src="assets/img/bar-graph.svg" alt="">
-        <h3>Caracteristicas de tu progreso</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo neque libero sapiente fuga sit perferendis mollitia incidunt consectetur, aperiam velit dolor, ab, porro eligendi eveniet temporibus dicta possimus ratione ipsa?</p>
+    <h2 class="titulo-caracteristicas">Caracteristicas</h2>
+    <main class="col-12">
+        
+        <div class="animation-element">
+    
+         <img class="grafico" src="assets/img/bar-graph.svg" alt="">
+
+        </div>
+
+        <div class="bloque-caracteristicas">
+            <h3>Caracteristicas de tu progreso</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo neque libero sapiente fuga sit perferendis mollitia incidunt consectetur, aperiam velit dolor, ab, porro eligendi eveniet temporibus dicta possimus ratione ipsa?</p>
+        </div>
     </main>
 
     <section class="col-12">
         <h1 titulo-precio>Precios</h1>
 
         <div class="cartas">
-            <div class="carta-1"></div>
+            <div class="carta-1">
+                <div class="interior-caja1">
+                    <h4>Trekk-in Free</h4>
+                    <h2>$ 0 / mes</h2>
+                    <hr>
+                    <ul>
+                        <li>Ver mapas creados por usuarios</li>
+                        <li>Conectar con otros usuarios</li>
+                    </ul>
+                    <hr>
+                    <a class="boton-free" href="boton"><button>Obten Free</button></a>
+                </div>
+            </div>
             <div class="carta-2"></div>
         </div>    
        
     </section>
 
-    <footer></footer>
+    <footer>
+        <h6>Legal</h6>
+        <h6>Cookies</h6>
+        <h6>Sobre Anunios</h6>
+        <h6 class="legal">2018 Trekk-in SPA.</h6>
+    </footer>
 
   
     
@@ -56,7 +82,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <!-- js js js -->
-
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/animate.js">
+    </script>
+    
     <script>
                 function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -67,5 +99,7 @@
         }
         }
     </script>
+   
+    
 </body>
 </html>
