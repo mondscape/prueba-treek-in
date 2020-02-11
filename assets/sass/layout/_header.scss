@@ -1,0 +1,27 @@
+header{
+    background-image: url(/assets/img/bg-hero.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: right;
+    padding-bottom: 50px;
+ 
+}
+.img-herosection{
+    width: 100vw;
+}
+
+@media (min-width: 992px){
+    header{
+        background-image: url(/assets/img/bg-hero.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;;
+        padding-bottom: 50px;
+        height: 800px;
+     
+    }
+
+
+}

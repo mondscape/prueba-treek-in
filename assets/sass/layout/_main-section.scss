@@ -1,0 +1,49 @@
+section{
+    width: 100vw;
+    background-image: url(/assets/img/bg-price.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        color: $white;
+    
+    }
+    
+}
+
+
+.cartas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.carta-1,.carta-2{
+    background-color: $white;
+    width: 280px;
+    height: 400px;
+    margin: 18px;
+}
+
+@media (min-width: 576px){
+
+    .cartas{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        
+    }
+    .carta-1,.carta-2{
+       
+        margin: 18px 50px;
+    }
+}
